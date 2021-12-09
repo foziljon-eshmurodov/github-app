@@ -1,0 +1,126 @@
+.overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    overflow-y: auto;
+}
+
+.repos {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.followers {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.follower-card {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 2px;
+    padding: 20px 0 15px 0px;
+}
+
+.follower-img {
+    width: 40px;
+    border-radius: 5px;
+}
+
+.follower-login {
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.my-navbar {
+    display: flex;
+    border-bottom: 1px solid #888;
+    padding-bottom: -2px;
+    margin-bottom: 10px;
+}
+
+.my-navbar p {
+    margin: 1px 4px;
+}
+
+.main_link {
+    padding: 0 10px 0 10px;
+    margin-bottom: 11px!important;
+}
+
+.underline {
+    border-bottom: 2px solid rgb(253, 73, 1);
+    padding-bottom: 10px;
+    margin-bottom: -1px!important;
+}
+
+.my-link {
+    text-decoration: none!important;
+}
+
+.user-not-found {
+    font-size: 1.5rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-content {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-content p {
+    margin: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff01c8;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff01c8d5;
+  }
+
+
+  @media screen and (max-width: 675px) {
+    .overview {
+        height: auto;
+        overflow-y: none;
+    }
+    
+    .repos {
+        height: auto;
+        overflow-y: none;
+    }
+    
+    .followers {
+        height: auto;
+        overflow-y: none;
+    }
+    
+    
+}

@@ -1,0 +1,16 @@
+.main-card {
+    padding: 10px 10px 0px 10px;
+}
+
+.technology {
+    display: flex;
+    align-items: baseline;
+}
+
+.bulletpoint {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 34);
+    margin-right: 5px;
+}

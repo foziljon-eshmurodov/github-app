@@ -1,0 +1,20 @@
+input {
+    max-width: 280px;
+}
+
+.my-search-navbar {
+    background-color: rgb(0, 119, 255);
+}
+
+.search-container {
+    padding: 10px 0;
+}
+
+.my-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    font-size: 1rem;
+}
